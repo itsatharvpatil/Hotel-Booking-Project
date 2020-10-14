@@ -14,5 +14,3 @@
 - ADD, Remove, Edit Number of Rooms
 - View Booked Room
 - Add new Admin
-
-Hello
