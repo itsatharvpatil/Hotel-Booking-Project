@@ -49,14 +49,30 @@
   } );
   </script>
 
-    
+    <style>
+      body {
+            background-color: #ffffff;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0px;
+            padding: 0px;
+        }
+      footer{
+                clear: both;
+                background-color: #000000;
+                margin-top: 50px;
+                text-align: center;
+                padding: 10;
+                color: #ffffff;
+            }
+    </style>
 </head>
 
 <body>
     <div class="container">
       
       
-       <img class="img-responsive" src="images/home_banner.jpg" style="width:100%; height:180px;">      
+       <img class="img-responsive" src="images/banner.png" style="width:100%; height:180px;">      
         
 
       <div class="well">
@@ -95,7 +111,9 @@
 
             </form>
         </div>
-        
+        <footer style="clear: both;">
+            &COPY:2020 by Book My Room Corp.
+        </footer>
         
 
 
