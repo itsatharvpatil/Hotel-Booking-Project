@@ -34,9 +34,11 @@
         }
 		body
 		{
-			background-image: url('images/home_bg.jpg');
+			background-color: #ffffff;
 			background-repeat: no-repeat;
 			background-attachment: fixed;
+			margin: 0px;
+			padding: 0px;
 		}
 		p
 		{
@@ -50,21 +52,58 @@
             margin-bottom: 15px;
             margin-right: 15px;
         }
-		
+		header{
+				background:#000000;
+				height: 60px;
+			}
+			a{
+				color:#ffffff;
+				text-decoration: none;
+			}
+			ul li{
+				list-style-type: none;
+			}
+			#left-nav{
+				float:left;
+			}
+			#right-nav{
+				float:right;
+			}
+			#right-nav li{
+				float:left;
+				display: inline-block;
+				margin: 10px;
+			}
+			footer{
+				clear: both;
+				background-color: #000000;
+				margin-top: 50px;
+				text-align: center;
+				padding: 10;
+				color: #ffffff;
+			}
+			#logo{
+				height: 40px;
+				width: 40px;
+			}
     </style>
-
-    <link rel="stylesheet" href="styles.css">
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="index.php">Home</a></li>
-      <li><a href="room.php">Room &amp; Facilities</a></li>
-      <li><a href="reservation.php">Online Reservation</a></li>
-      <li><a href="admin.php">Admin</a></li>
-  </ul>
     
     
 </head>
 
 <body>
+    
+        <header>
+			<ul id="left-nav">
+				<li class="active"><a href="index.php"><img src="images/logo.png" id="logo"></a></li>
+			</ul>
+			<ul id="right-nav">
+				<li><a href="room.php">Rooms</a></li>
+				<li><a href="reservation.php">Online Reservations</a></li>
+				<li><a href="admin.php">Admin</a></li>
+			</ul>
+		</header>
+	<div class="container">	
      
         <div class="jumbotron">
         <div class="w3-content w3-section">
@@ -88,23 +127,16 @@
               
             </div>  
         </div>
-        <div class="row" style="color: #ffbb2b">
-            <div class="col-md-4 wellfix">
-              <h4><strong>Contact Us</strong></h4><hr>
-              Address : Raipur Chhattisgarh<br>
-              Mail : projectworldsoffcial@gmail.com <br>
-            </div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4 wellfix">
-                <h4><strong>Developed By</strong></h4><hr>
-                <a href="#">ATHARV, SOHAM & TANMAY</a>
-            </div>
-        </div>
+
+    </div>
+    <footer style="clear: both;">
+		&COPY:2020 by Book My Room Corp.
+	</footer>
         
 
 
 
-    </div>
+    
     
     
     
