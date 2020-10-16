@@ -80,33 +80,59 @@
             font-size: 13px;
             font-weight: 100;
         }
-
+        header{
+                background:#000000;
+                height: 60px;
+            }
+            a{
+                color:#ffffff;
+                text-decoration: none;
+            }
+            ul li{
+                list-style-type: none;
+            }
+            #left-nav{
+                float:left;
+            }
+            #right-nav{
+                float:right;
+            }
+            #right-nav li{
+                float:left;
+                display: inline-block;
+                margin: 10px;
+            }
+            footer{
+                clear: both;
+                background-color: #000000;
+                margin-top: 50px;
+                text-align: center;
+                padding: 10;
+                color: #ffffff;
+            }
+            #logo{
+                height: 40px;
+                width: 40px;
+            }
     </style>
     
     
 </head>
 
 <body>
-    <div class="container">
-      
-      
-       <img class="img-responsive" src="images/home_banner.jpg" style="width:100%; height:180px;">      
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <ul class="nav navbar-nav">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="room.php">Room &amp; Facilities</a></li>
-                    <li class="active"><a href="reservation.php">Online Reservation</a></li>
-
-                   <li><a href="admin.php">Admin</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="http://www.facebook.com"><img src="images/facebook.png"></a></li>
-                    <li><a href="http://www.twitter.com"><img src="images/twitter.png"></a></li>                    
-                </ul>
-            </div>
-        </nav>
-        
+    
+            
+    <header>
+        <ul id="left-nav">
+            <li class="active"><a href="index.php"><img src="images/logo.png" id="logo"></a></li>
+        </ul>
+        <ul id="right-nav">
+            <li><a href="room.php">Rooms</a></li>
+            <li><a href="reservation.php">Online Reservations</a></li>
+            <li><a href="admin.php">Admin</a></li>
+        </ul>
+        </header>
+    <div class="container">    
        <div class='row'>
         <div class='col-md-4'></div>
         <div class='col-md-5 well'>
