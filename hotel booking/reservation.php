@@ -179,7 +179,7 @@
                                 <h6>No of Beds: ".$row2['no_bed']." ".$row2['bedtype']." bed.</h6>
                                 <h6>Available Rooms: ".$row2['available']."</h6>
                                 <h6>Facilities: ".$row2['facility']."</h6>
-                                <h6>Price: ".$row2['price']." tk/night.</h6>
+                                <h6>Price: ".$row2['price']." Rs/night.</h6>
                             </div>
                             <div class='col-md-3'>
                                 <a href='./booknow.php?roomname=".$row2['roomname']."'><button class='btn btn-primary button'>Book Now</button></a>

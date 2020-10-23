@@ -119,7 +119,7 @@ $user=new User();
                                 <h4>".$row['roomname']."</h4><hr>
                                 <h6>No of Beds: ".$row['no_bed']." ".$row['bedtype']." bed.</h6>
                                 <h6>Facilities: ".$row['facility']."</h6>
-                                <h6>Price: ".$row['price']." tk/night.</h6>
+                                <h6>Price: ".$row['price']." Rs/night.</h6>
                             </div>
                             <div class='col-md-3'>
                                 <a href='./booknow.php?roomname=".$row['roomname']."'><button class='btn btn-primary button'>Book Now</button> </a>
