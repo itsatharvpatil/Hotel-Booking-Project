@@ -8,9 +8,6 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Hotel Booking</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -42,8 +39,11 @@
 		}
 		p
 		{
-			font-size: 13px;
+			font-size: 20px;
 		}
+        div{
+            padding: 25px;
+        }
         .pro_pic
         {
             border-radius: 50%;
@@ -118,7 +118,7 @@
         <hr>
         <div class="row" style="color: #ed9e21">
             <div class="col-md-12 well" >
-              <h4><strong style="color: #ffbb2b">About</strong></h4><br>
+              <h1><strong style="color: #ffbb2b">About</strong></h4><br>
               <p>Online hotel reservations are a popular method for booking hotel rooms. Travelers can book rooms on a computer by using online security to protect their privacy and financial information and by using several online travel agents to compare prices and facilities at different hotels</p>
               <br>
               <p>Prior to the Internet, travelers could write, telephone the hotel directly, or use a travel agent to make a reservation. Nowadays, online travel agents have pictures of hotels and rooms, information on prices and deals, and even information on local resorts. Many also allow reviews of the traveler to be recorded with the online travel agent.</p>
@@ -134,23 +134,9 @@
 	</footer>
         
 
-
-
-    
-    
-    
-    
-    
-    
-
-
-
-
     <script src="my_js/slide.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>

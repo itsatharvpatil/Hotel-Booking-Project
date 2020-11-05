@@ -15,9 +15,6 @@ $user=new User();
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Hotel Booking</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
     
     
@@ -35,6 +32,7 @@ $user=new User();
             background-attachment: fixed;
             margin: 0px;
             padding: 0px;
+            text-align: center;
         }
         h4 {
             color: #ffbb2b;
@@ -78,6 +76,11 @@ $user=new User();
             #logo{
                 height: 40px;
                 width: 40px;
+            }
+            div{
+                width: 90%;
+                padding: 10px;
+                margin-left: 5%;
             }
     </style>
     

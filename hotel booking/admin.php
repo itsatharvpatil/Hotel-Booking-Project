@@ -25,7 +25,7 @@ if(isset($_GET['q']))
     <title>Admin Panel</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
 
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 
@@ -85,6 +85,11 @@ if(isset($_GET['q']))
             #logo{
                 height: 40px;
                 width: 40px;
+            }
+            div{
+                width: 90%;
+                padding: 10px;
+                margin-left: 5%;
             }
     </style>
 

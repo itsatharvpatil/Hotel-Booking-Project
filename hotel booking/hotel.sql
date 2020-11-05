@@ -69,7 +69,7 @@ INSERT INTO `rooms` (`room_id`, `room_cat`, `checkin`, `checkout`, `name`, `phon
 (25, 'Family', '0000-00-00', '0000-00-00', '', 0, 'false'),
 (26, 'Family', '0000-00-00', '0000-00-00', '', 0, 'false'),
 (27, 'Family', '0000-00-00', '0000-00-00', '', 0, 'false'),
-(28, 'Super Comfort', '2017-05-19', '2017-05-22', 'Jinat Afroj', 1524587558, 'true'),
+(28, 'Super Comfort', '0000-00-00', '0000-00-00', '', 0, 'false'),
 (29, 'Super Comfort', '0000-00-00', '0000-00-00', '', 0, 'false'),
 (30, 'Super Comfort', '0000-00-00', '0000-00-00', '', 0, 'false'),
 (31, 'Super Comfort', '0000-00-00', '0000-00-00', '', 0, 'false'),

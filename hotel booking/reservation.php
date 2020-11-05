@@ -36,7 +36,7 @@
     <title>Hotel Booking</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
 
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
     
@@ -61,9 +61,10 @@
         }
         
         body {
-            background-image: url('images/home_bg.jpg');
+            background: #ffffff;
             background-repeat: no-repeat;
             background-attachment: fixed;
+            text-align: center;
         }
         
         h4 {
@@ -114,6 +115,13 @@
                 height: 40px;
                 width: 40px;
             }
+            div{
+                width: 90%;
+                margin-left: 5%;
+            }
+            #d1{
+            	padding: 30px;
+            }
     </style>
     
     
@@ -132,10 +140,10 @@
             <li><a href="admin.php">Admin</a></li>
         </ul>
         </header>
-    <div class="container">    
+    <div class="container" style="padding: 25px;">    
        <div class='row'>
         <div class='col-md-4'></div>
-        <div class='col-md-5 well'>
+        <div class='col-md-5 well' id="d1">
          <form action="" method="post" name="room_category">
               
               
@@ -185,34 +193,18 @@
                                 <a href='./booknow.php?roomname=".$row2['roomname']."'><button class='btn btn-primary button'>Book Now</button></a>
                             </div>   
                             </div>
-                            
-                            
-                        
-                    
-                         ";
-                    
-                    
-                }
-                
-                
                           
+                         ";
+                 
+                }
+                    
             }
-         }
-        
-        
+         } 
 ?>
 
 
     </div>
     
-    
-    
-    
-    
-
-
-
-
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

@@ -18,7 +18,7 @@ $user=new User();
     <title>Hotel Booking</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
 
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
     
@@ -32,9 +32,10 @@ $user=new User();
         }
         
         body {
-            background-image: url('images/home_bg.jpg');
+            background-color: #ffffff;
             background-repeat: no-repeat;
             background-attachment: fixed;
+            text-align: center;
         }
         
         h4 {
@@ -45,42 +46,69 @@ $user=new User();
             color: navajowhite;
             font-family:  monospace;
         }
+        header{
+                background:#000000;
+                height: 60px;
+            }
+            a{
+                color:#ffffff;
+                text-decoration: none;
+            }
+            ul li{
+                list-style-type: none;
+            }
+            #left-nav{
+                float:left;
+            }
+            #right-nav{
+                float:right;
+            }
+            #right-nav li{
+                float:left;
+                display: inline-block;
+                margin: 10px;
+            }
+            #logo{
+                height: 40px;
+                width: 40px;
+            }
+        footer{
+                clear: both;
+                background-color: #000000;
+                margin-top: 50px;
+                text-align: center;
+                padding: 10;
+                color: #ffffff;
+            }
+            #topdiv{
+                margin-top: 10px;
+            }
 
-
+        div{
+                width: 90%;
+                padding: 10px;
+                margin-left: 5%;
+            }
     </style>
     
     
 </head>
 
 <body>
-    <div class="container">
-      
-      
-       <img class="img-responsive" src="images/home_banner.jpg" style="width:100%; height:180px;">      
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <ul class="nav navbar-nav">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="room.php">Room &amp; Facilities</a></li>
-                    <li><a href="reservation.php">Online Reservation</a></li>
-                    <li><a href="admin.php">Admin</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="admin.php?q=logout">
-                            <button type="button" class="btn btn-danger">Logout</button>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="http://www.facebook.com"><img src="images/facebook.png"></a></li>
-                    <li><a href="http://www.twitter.com"><img src="images/twitter.png"></a></li>                    
-                </ul>
-            </div>
-        </nav>
         
-        
-        
+       
+        <header>
+            <ul id="left-nav">
+                <li class="active"><a href="index.php"><img src="images/logo.png" id="logo"></a></li>
+            </ul>
+            <ul id="right-nav">
+                <li><a href="room.php">Rooms</a></li>
+                <li><a href="reservation.php">Online Reservations</a></li>
+                <li><a href="admin.php">Admin</a></li>
+            </ul>
+        </header>
+
+        <div class="container" id="topdiv"> 
         <?php
         
         $sql="SELECT * FROM room_category";
@@ -126,10 +154,6 @@ $user=new User();
             echo "Cannot connect to server".$result;
         }
         
-        
-        
-        
-        
         ?>
 
 
@@ -138,7 +162,9 @@ $user=new User();
     
     
     
-    
+    <footer style="clear: both;">
+            &COPY:2020 by Book My Room Corp.
+    </footer>
 
 
 

@@ -1,5 +1,5 @@
 body {
-    background-image: url('../../images/home_bg.jpg');
+    background-color:#000000;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -31,7 +31,7 @@ h2 {
 
 label
 {
-    color:#ffbb2b;
+    color:#0e0e0e;
     font-size: 13px;
     font-weight: 100;
 }
