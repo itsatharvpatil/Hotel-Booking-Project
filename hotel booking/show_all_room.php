@@ -131,7 +131,7 @@ $user=new User();
                                 <h6>Checkin: ".$row['checkin']." and checkout: ".$row['checkout']."</h6>
                                 <h6>Name: ".$row['name']."</h6>
                                 <h6>Phone: ".$row['phone']."</h6>
-                                <h6>Booking Condition: ".$row['book']."</h6>
+                               
                             </div>
                             &nbsp;&nbsp;
                             <a href='edit_all_room.php?id=".$row['room_id']."'><button class='btn btn-primary button'>Edit</button></a>
